@@ -6,8 +6,8 @@ import Cors from "cors";
 // App Config
 const app = express();
 const port = process.env.PORT || 8001; // port app gonna listen
-const connection_url = "<MongoDB URL>";
-
+const connection_url = "mongodb+srv://tinder-admin:LCzolQ0jiicuqgjQ@cluster0.vbw3y.mongodb.net/tinderdb?retryWrites=true&w=majority";
+                      //"mongodb://tinder-admin:LCzolQ0jiicuqgj@cluster0-shard-00-00.vbw3y.mongodb.net:27017,cluster0-shard-00-01.vbw3y.mongodb.net:27017,cluster0-shard-00-02.vbw3y.mongodb.net:27017/tinderdb?ssl=true&replicaSet=atlas-e1zfu6-shard-0&authSource=admin&retryWrites=true&w=majority"
 // Middlewares
 app.use(express.json());
 app.use(Cors());
