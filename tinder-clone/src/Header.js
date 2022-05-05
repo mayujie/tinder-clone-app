@@ -15,8 +15,8 @@ function Header() {
       {/* head logo */}
       <img
         className="header__logo"
-        src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
-        alt=""
+        src="https://logosmarken.com/wp-content/uploads/2020/09/Tinder-Logo.png"
+        alt="Tinder Logo"
       />
 
       <IconButton>
